@@ -5,7 +5,7 @@ configDotenv();
 import todoRoutes from "./routes/todo.routes.js";
 import path from "path";
 const app = express();
-const dbUrl = process.env.DB_URL_LOCAL;
+const dbUrl = process.env.MONGO_URI;
 const port = process.env.PORT || 3000;
 
 
